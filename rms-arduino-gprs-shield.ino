@@ -383,7 +383,7 @@ void pressStop()
   Serial.println();
 
   // Key up
-  Serial.println("<109> stop key up");
+  Serial.println("<109> stop key up.");
   ST109.write(0x01);
   ST109.write(0x4B);
   ST109.write((uint8_t)0);
